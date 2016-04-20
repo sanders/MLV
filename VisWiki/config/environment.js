@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'vis-wiki',
     environment: environment,
-    baseURL: '/',
+    baseURL: '/MLV',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
