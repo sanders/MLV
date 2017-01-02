@@ -1,0 +1,44 @@
+<head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js">
+<script type="text/javascript">
+   $(function(){
+      alert("My First Jquery Test");
+   });
+</script>
+</head>
+<body>
+<svg width="100%" height="100%">
+<defs>
+      <radialGradient id="LensGradient">
+        <stop offset="80%" stop-color="rgba(240,240,240,0.1)"/>
+        <stop offset="100%" stop-color="rgba(0,0,0,0.1)"/>
+      </radialGradient>
+      <radialGradient id="GreenGradient">
+        <stop offset="80%" stop-color="rgb(0,255,0)"/>
+        <stop offset="100%" stop-color="rgb(0,120,0)"/>
+      </radialGradient>
+      <radialGradient id="RedGradient">
+        <stop offset="80%" stop-color="rgb(255,0,0)"/>
+        <stop offset="100%" stop-color="rgb(120,0,0)"/>
+      </radialGradient>
+  </defs>
+
+
+
+  <g class="node-1" transform="translate(50,50)">
+    <circle cx="50" cy="50" r="15" fill="url(#GreenGradient)" style="stroke:gray;" />
+    <circle cx="50" cy="50" r="50" fill="url(#LensGradient)" style="stroke:black;" />
+  </g>
+
+  <g transform="translate(50,200)">
+    <circle cx="50" cy="50" r="30" fill="url(#RedGradient)" style="stroke:gray;" />
+    <circle cx="50" cy="50" r="50" fill="url(#LensGradient)" style="stroke:black;" />
+  </g>
+
+
+  <g transform="translate(50,350)">
+    <circle cx="50" cy="50" r="10" fill="url(#RedGradient)" style="stroke:gray;" />
+    <circle cx="50" cy="50" r="50" fill="url(#LensGradient)" style="stroke:black;" />
+  </g>
+</svg>
+</body>
